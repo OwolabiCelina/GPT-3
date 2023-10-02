@@ -44,12 +44,13 @@
   word-spacing: 2px;
 }
 .gpt3__footer-links {
+  width: 50%;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
-
+  gap: 10px;
   width: 100%;
   text-align: left;
 }
@@ -111,8 +112,48 @@
   .gpt3__footer-heading h1 {
     font-size: 44px;
     line-height: 50px;
-   
   }
+
+  .gpt3__footer-links {
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    text-align: left;
+  }
+  
+@media screen and (max-width: 550px){
+  .gpt3__footer-links{
+
+  }
+
+  .gpt3__footer-heading #step {
+    font-size: 25px;
+
+  }
+
+  .gpt3__footer-links_logo img {
+    width: 60px;
+    height: 25px;
+    margin-bottom: 1rem;
+  }
+  
+  .gpt3__footer-links_logo p {
+    font-size: 8px;
+  }
+
+.gpt3__footer-links_div h4 {
+  font-size: 12px;
+}
+.gpt3__footer-links_div p {
+  font-size: 10px;
+  cursor: pointer;
+}
+.gpt3__footer-copyright p {
+  font-size: 10px;
+  /* font-feature-settings: "liga" off; */
+}
+}
  
 }
 
