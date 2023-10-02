@@ -60,3 +60,15 @@
       margin: 1rem 0;
   }
 }
+
+@media screen and (max-width: 400px){
+  .gpt3__features-container__feature-title #title {
+    margin-right: 2rem;
+    font-size: 0.8rem;
+  }
+
+  .gpt3__features-container_feature-text #text {
+    font-size: 10px;
+    width: 80%;
+}
+}
